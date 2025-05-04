@@ -1,0 +1,35 @@
+{
+  "name": "oop-gdscript-tutorial",
+  "version": "1.0.0",
+  "description": "learn OOP with GDScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acatl/oop-gdscript-tutorial.git"
+  },
+  "keywords": [
+    "gdscript",
+    "godot",
+    "oop"
+  ],
+  "author": "acatl pacheco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acatl/oop-gdscript-tutorial/issues"
+  },
+  "homepage": "https://github.com/acatl/oop-gdscript-tutorial#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
