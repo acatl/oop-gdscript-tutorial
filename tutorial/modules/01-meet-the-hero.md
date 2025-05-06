@@ -4,7 +4,7 @@
 
 ## Overview
 
-Your first quest begins here: creating the hero of your RPG! 
+Your first quest begins here: creating the hero of your RPG!
 In this module, you’ll define your character using GDScript 4.x, give them stats like health and name, and write methods to heal and take damage. Basically, you're giving life to a digital hero who may or may not survive long enough to regret trusting you.
 
 ---
@@ -21,7 +21,7 @@ In this module, you’ll define your character using GDScript 4.x, give them sta
 
 In Godot and GDScript, **a class is like a blueprint**. It defines what a thing _is_ and what it _can do_. Think of it as the DNA of your character—minus the awkward adolescence.
 
-### 🧠 RPG Analogy:
+### 🧠 RPG Analogy
 
 > You’re designing a character for a game.
 >
@@ -30,7 +30,7 @@ In Godot and GDScript, **a class is like a blueprint**. It defines what a thing 
 
 Once you create this class, you can spawn heroes like a fantasy-themed vending machine.
 
-### Example in GDScript:
+### Example in GDScript
 
 Here's a basic definition of a class with two properties and one method that increases health.
 
@@ -76,7 +76,7 @@ First, you’ll create the structure of your hero visually in the scene editor.
 
 Your scene tree should look like this:
 
-```
+```text
 Player (CharacterBody2D)
 ├── Sprite2D
 ├── ProgressBar

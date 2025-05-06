@@ -39,7 +39,7 @@ You make one base villager (a scene), and then spawn many of them like magical m
 
 Your scene tree should look like this:
 
-```
+```text
 Villager (CharacterBody2D)
 ├── Sprite2D
 └── Label
