@@ -69,7 +69,7 @@ Before:
 func heal():
     current_hp += 10
     $ProgressBar.value = current_hp
-    $Label.text = name
+    $Label.text = player_name
 ```
 
 After:
@@ -81,7 +81,7 @@ func heal():
 
 func update_ui():
     $ProgressBar.value = current_hp
-    $Label.text = name
+    $Label.text = player_name
 ```
 
 > 🦼 **Clean Code Tip**
@@ -113,7 +113,7 @@ Before:
 func _process(delta):
     if current_hp <= 0:
         queue_free()
-    $Label.text = name
+    $Label.text = player_name
     $ProgressBar.value = current_hp
 ```
 
@@ -126,7 +126,7 @@ func _process(delta):
     update_ui()
 
 func update_ui():
-    $Label.text = name
+    $Label.text = player_name
     $ProgressBar.value = current_hp
 ```
 

@@ -94,7 +94,7 @@ Now that your hero has a visible presence in the game world, it's time to bring 
 class_name Player
 extends CharacterBody2D
 
-var name: String = "Hero"
+var player_name: String = "Hero"
 var max_hp: int = 100
 var current_hp: int = max_hp
 
@@ -111,7 +111,7 @@ func heal(amount: int) -> void:
 
 func update_ui():
     $ProgressBar.value = current_hp
-    $Label.text = name
+    $Label.text = player_name
 ```
 
 > 🧼 **Clean Code Tip**
@@ -152,7 +152,7 @@ This updated diagram shows your full `Player` class structure:
 ```mermaid
 classDiagram
     class Player {
-        - name: String
+        - player_name: String
         - max_hp: int
         - current_hp: int
         + take_damage(amount)

@@ -56,10 +56,10 @@ Now it’s time to give each villager some personality! In this step, you'll cre
 class_name Villager
 extends CharacterBody2D
 
-@export var name: String = "Unnamed Villager"
+@export var villager_name: String = "Unnamed Villager"
 
 func _ready():
-    $Label.text = name
+    $Label.text = villager_name
 ```
 
 > 🦼 **Clean Code Tip**

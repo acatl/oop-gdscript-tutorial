@@ -81,7 +81,7 @@ extends Character
 
 func update_ui():
     $ProgressBar.value = current_hp
-    $Label.text = name
+    $Label.text = player_name
 ```
 
 > 🎉 Now Player gets healing, damage, and death logic _for free_!
